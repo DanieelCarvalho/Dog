@@ -6,7 +6,6 @@ import Loading from "./assets/loading.svg"
 function App() {
   
   const [dog, setDog] = useState(null);
-  const [open, setOpen] = useState(false);
   const API = "https://dog.ceo/api/breeds/image/random"
   useEffect(() => {
   
